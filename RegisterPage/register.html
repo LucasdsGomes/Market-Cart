@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registre-se MarketPlace</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="registerStyle.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg novaCorNavbar">
+    <div class="container-fluid justify-content-center">
+      <img class="img-fluid" src="https://cdn.pixabay.com/photo/2015/04/18/07/49/shopping-cart-728430_960_720.png">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" id="itensNavbar" aria-current="page" href="../HomePage/home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" id="itensNavbar" href="./register.html">Registre-se</a>
+          </li>
+        </ul>
+    </div>
+  </nav>
+  
+  <div class="container mt-5 mb-5 card w-50">
+    <div class="card-body" id="card">
+      <div class="text-center">
+        <img class="img-fluid" id="imgCadastro" src="https://cdn.pixabay.com/photo/2015/04/18/07/49/shopping-cart-728430_960_720.png">
+      </div>
+      <p class="card-text text-center fs-5 fw-bold">Venha para esse mundo conosco!<br><span class="fs-6 fw-light">Cadastre-se</span></p>
+      <label for="exampleFormControlInput1" class="form-label fw-lighter">Insira seu nome completo</label>
+      <div class="form-floating">
+        <input type="name" class="form-control" id="floatingInput" placeholder="Nome" required>
+        <label for="floatingInput">Nome</label>
+      </div>
+      <div class="form-floating mb-3">
+        <input type="name" class="form-control" id="floatingInput" placeholder="Sobrenome" required>
+        <label for="floatingInput">Sobrenome</label>
+      </div>
+      <label for="exampleFormControlInput1" class="form-label fw-lighter">Insira sua data de nascimento</label>
+      <div class="form-floating mb-3">
+        <input type="date" class="form-control" id="floatingDate" placeholder="Data de Nascimento" required>
+        <label for="floatingDate">Data de Nascimento</label>
+      </div>
+      <label for="exampleFormControlInput1" class="form-label fw-lighter">Insira seu email</label>
+      <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@gmail.com">
+        <label for="floatingInput">Email</label>
+      </div>
+      <label for="exampleFormControlInput1" class="form-label fw-lighter">Insira sua senha</label>
+      <div class="form-floating">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Senha">
+        <label for="floatingPassword">Senha</label>
+      </div>
+      <div class="form-floating">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Confirme sua Senha">
+        <label for="floatingPassword">Confirme sua Senha</label>
+      </div>
+      <div class="text-center">
+        <a href="#" class="btn btn-primary mt-3">Avançar</a>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="container-fluid text-center p-2" id="footer">
+    <ul class="container d-flex justify-content-center mt-2">
+      <a href="#">
+        <li id="opcoesFooter">Trabalhe Conosco</li>
+      </a>
+      <a href="#">
+      <li id="opcoesFooter">Termos e Condições</li>
+      </a>
+      <a href="#">
+      <li id="opcoesFooter">Privacidade</li>
+      </a>
+      <a href="#">
+      <li id="opcoesFooter">Acessibilidade</li>
+      </a>
+      <a href="#">
+      <li id="opcoesFooter">Contato</li>
+      </a>
+    </ul>
+    <span>Copyright © 1999-2023 Lucas e Aaron LTDA</s>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="./registerScript.js"></script>
+</body>
+</html>
